@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+section{
+    padding: 100px;
+}
+#banner{
+    position: relative;
+    min-height: 100vh;
+    background: url(img/header.png);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner h2{
+    font-size: 3em;
+    color: #111;
+    font-weight: 500;
+    line-height: 1.5em;
+}
+#banner h2 span{
+    font-size: 1.5em;
+    font-weight: 700;
+}
+#banner h3{
+    font-size: 1.5em;
+    color: rgb(17, 9, 9);
+    font-weight: 500;
+
+}
+
+.btn{
+    position: relative;
+    background: #2196f3;
+    display: inline-block;
+    color: #fff;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+header.sticky{
+    background: #fff;
+    padding: 19px 100px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+header .logo{
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+header.sticky .logo{
+    color: #111;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+header  ul li {
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+    text-decoration: none;
+    transition: .2s;
+    padding-bottom: 1px;
+}
+header  ul li a:hover{
+    border-bottom:   #0f8bc5 2px solid;
+}
+header.sticky ul li a{
+    color: #111;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+.heading h2{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+
+ 
+.heading-efect{
+    margin-top: 50px;
+}
+#sobre{
+    height: 100vh;
+}
+.heading-efect h2 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 90px;
+    color: #111;
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    position: relative; 
+}
+
+/*.content img{
+    max-width: 60vh;
+    height: 50vh;
+}*/
+
+.contentBx{
+    padding-right: 30px;
+}
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+ 
+ .contentBx{
+     padding: 10px;
+ }
+    
+
+
+.content .img-sobre img:hover{
+    transform: translateY(-30px);
+}
+.content .img-sobre img{
+    width: 450vw;
+}
+.content .contentBx img{
+    width: 150vw;
+}
+.btnCurri a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(34, 34, 34);
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 5px 15px;
+    margin: -35px;
+    position: relative;
+    animation-name: btn-anime;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    
+}
+@keyframes btn-anime{
+    0%{opacity: 0;
+        top: -50;
+    }
+    100%{opacity: 1;
+        top: 20;
+    }
+}
+
+
+.w50{
+    min-width: 50%;
+    
+}
+img{
+    max-width: 100%;
+}
+.services{
+    background: rgb(33, 128, 172);
+}
+.heading.white{
+    color: #fff;
+}
+.services.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBx{
+    padding: 40px 20px;
+    background: #222;
+    color: #fff;
+    max-width: 340px;
+    margin: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBx:hover{
+    /*background: #2196f3;* de cor azul padrão*/
+    
+}
+.services .content .servicesBx img{
+    max-width: 80px;
+    filter: invert(1);
+}
+.services .content .servicesBx h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.work .content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.work .content .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.work .content .workBx img{
+    max-width: 100%;
+   
+}
+
+.Contact{
+    background: #111;
+    padding-top: 20px;
+}
+.Contact .heading h2{
+    padding-top: 40px;
+}
+.Contact .heading p{
+    padding-bottom: 15px;
+}
+.Contact, .content {
+    display: flex;
+    flex-direction: row;
+    padding-top: 70px;
+}
+.content{
+    padding-top: 25px;
+    
+}
+
+.formBx{
+    min-width: 50%;
+    
+}
+.formBx form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.formBx form h3, .contactInfo h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 100;
+    margin-bottom: 7px;
+}
+.formBx form input,
+.formBx form textarea{
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 13px;
+    background: transparent;
+    border: none;
+    outline: none;
+    background: #222;
+    color: #fff;
+    resize: none;
+}
+.formBx form textarea{
+    min-height: 200px;
+}
+.formBx form input::placeholder
+.formBx form textarea{
+    color: #999;
+}
+.formBx form input[type="submit"]{
+    max-width: 100px;
+    background: #2196f3;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.icone{
+    width: 28px;
+    filter: invert(1);
+}
+.containerIcone{
+    display: flex;
+    
+}
+.contactInforBx h3{
+    color: #2196f3;;
+}
