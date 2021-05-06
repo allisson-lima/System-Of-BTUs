@@ -103,6 +103,9 @@ header  ul li a:hover{
 header.sticky ul li a{
     color: #111;
 }
+.textBx{
+    margin-top: 180px;
+}
 .heading{
     width: 100%;
     text-align: center;
@@ -214,7 +217,7 @@ img{
     padding: 40px 20px;
     background: #222;
     color: #fff;
-    max-width: 340px;
+    max-width: 540px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
@@ -224,8 +227,8 @@ img{
     
 }
 .services .content .servicesBx img{
-    max-width: 80px;
-    filter: invert(1);
+    max-width: 300px;
+    
 }
 .services .content .servicesBx h2{
     font-size: 20px;
