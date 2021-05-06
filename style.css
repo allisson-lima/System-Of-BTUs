@@ -218,12 +218,13 @@ img{
 }
 .services .content .servicesBx{
     padding: 40px 20px;
-    background: #222;
-    color: #fff;
+    background: #fff;
+    color: #111;
     max-width: 540px;
     margin: 20px;
     text-align: center;
     transition: 0.5s;
+    
 }
 .services .content .servicesBx:hover{
     /*background: #2196f3;* de cor azul padrão*/
@@ -322,4 +323,8 @@ img{
 }
 .contactInforBx h3{
     color: #2196f3;;
+}
+.contentCalc{
+    display: flex;
+    flex-direction: column;
 }

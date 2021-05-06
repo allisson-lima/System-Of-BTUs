@@ -7,7 +7,7 @@
   .content .servicesBx:hover{
     transform: translateY(-20px);
     
-    background: linear-gradient(45deg, #2fb622, #0f8bc5,#df3333);
+    background: linear-gradient(45deg, #49abd8, #5da2c2,#d1cbcb);
     color: white;
   }
   
@@ -193,3 +193,5 @@
   .input-data input:valid ~ .underline:before{
   transform: scaleX(1);
   }
+
+  
