@@ -327,4 +327,11 @@ img{
 .contentCalc{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    max-width: 30%;
+
+}
+.contentCalc input{
+    background: #fff;
 }
