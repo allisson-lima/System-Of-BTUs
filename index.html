@@ -98,15 +98,16 @@ Ainda não sabe qual ar-condicionado comprar para se livrar do calor? Então con
             <div class="calcTarget">
                 <h2>Cálculo de Btu</h2>
                 <label> Total de Área em m2 <br>
-                <input type="text" id="area" placeholder="Digite o m2" size="35" required>
+                <input type="number" id="area" placeholder="Digite o m2" size="35" required>
             </label><br>
             <label> Total de pessoas no ambiente <br>
-                    <input type="text" id="pessoas" placeholder="Digite o nº de pessoas" size="40" required><br>
+                    <input type="number" id="pessoas" placeholder="Digite o nº de pessoas" size="40" required><br>
             </label>
             <label> Total de Eletroeletrônicos <br>
-                <input type="text" id="eletro" placeholder="Digite o nº Eletroeletrônicos" size="35" required><br> <br>
+                <input type="text" id="eletro" placeholder="Digite o nº Eletroeletrônicos" size="35"  required="required" maxlength="10" pattern="[0-9]+$"><br> <br>
         </label>
-            <input type="button" id="btncalc" value="Calcular" >
+        
+            <input type="submit" id="btncalc" value="Calcular" >
         </div>
             </div>
         

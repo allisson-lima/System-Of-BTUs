@@ -305,7 +305,7 @@ img{
 }
 .formBx form input::placeholder
 .formBx form textarea{
-    color: #999;
+    color: rgb(233, 217, 217);
 }
 .formBx form input[type="submit"]{
     max-width: 100px;
@@ -323,7 +323,7 @@ img{
     
 }
 .contactInforBx h3{
-    color: #2196f3;;
+    color: #2196f3;
 }
 .contentCalc{
     
@@ -340,19 +340,32 @@ img{
    margin-bottom: 10px;  
    font-size: 18px; 
    align-items: center;
+   border-color: papayawhip;
 }
 .calcTarget{
     width: 90%;
     margin: auto;
     height: 80%;
     padding: 25px;
-    outline: none; 
+    outline: 0; 
     background-color: #fff;
     margin: 0 0 0 70px;
 }
  #btncalc{
     width: 80%;
+    background-color: #2196f3;
+    color: #fff;
+    height: 45px;
+    border-radius: 20px;
+    cursor: pointer;
+    border-color: 0%;
 }
 .calcTarget h2{
     margin: 20px;
 }
+.calcTarget input:invalid{
+    border-color: red !important;
+  }
+  .calcTarget input:valid {
+    border-color: green !important;
+  }
