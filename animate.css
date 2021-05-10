@@ -20,12 +20,7 @@
     background: linear-gradient(45deg, #03a9f4,#925b6e);
   }
   
-  /*.content .servicesBx::after*/
-  *{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+  
   
   .containerfooter{
     display: flex;
@@ -131,19 +126,16 @@
   .footer-copyright a{
     color: #fff;
   }
-  /* animação input*/
-  input{
-  background: #222;
   
-  }
+  
   form h3{
   margin-left: 10px;
   }
   
   .wrapper{
   width: 550px;
-  background: #;
-  padding: 10px;
+
+  padding:10px;
   /*box-shadow: 0px 0px 10px rgba(0,0,0,0.1);*/
   }
   .wrapper .input-data{

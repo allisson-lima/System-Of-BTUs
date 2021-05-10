@@ -299,6 +299,7 @@ img{
     color: #fff;
     resize: none;
 }
+
 .formBx form textarea{
     min-height: 200px;
 }
@@ -325,13 +326,33 @@ img{
     color: #2196f3;;
 }
 .contentCalc{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: lightgray;
-    max-width: 30%;
-
+    
+    font-size: 19px;
+    align-items: center;
+    
+    box-shadow: 0 0 2em rgb(146, 142, 142);
+    width: 40%;
+    height: 100%;
+    
 }
 .contentCalc input{
-    background: #fff;
+   width: 80%; 
+   margin-bottom: 10px;  
+   font-size: 18px; 
+   align-items: center;
+}
+.calcTarget{
+    width: 90%;
+    margin: auto;
+    height: 80%;
+    padding: 25px;
+    outline: none; 
+    background-color: #fff;
+    margin: 0 0 0 70px;
+}
+ #btncalc{
+    width: 80%;
+}
+.calcTarget h2{
+    margin: 20px;
 }

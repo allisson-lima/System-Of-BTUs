@@ -25,7 +25,7 @@
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#servicos">Conceito</a></li>
-                <li><a href="#trabalho">Calculadora</a></li>
+                <li><a href="#Calculo">Calculadora</a></li>
                 <li><a href="#contato">Contatos</a></li>
             </ul>
     </header>
@@ -89,22 +89,25 @@ Ainda não sabe qual ar-condicionado comprar para se livrar do calor? Então con
            
         </div>
     </section>
-    <section id="trabalho" class="work">
+    <section id="Calculo" class="work">
         <div class="heading ">
             <h2>CALCULADORA DE BTUs</h2>
         </div>
         <div class="contentCalc">
-            <h2>Cálculo de Btu</h2>
             
+            <div class="calcTarget">
+                <h2>Cálculo de Btu</h2>
                 <label> Total de Área em m2 <br>
-                <input type="text" id="area" placeholder="Digite o m2" required>
-            </label>
+                <input type="text" id="area" placeholder="Digite o m2" size="35" required>
+            </label><br>
             <label> Total de pessoas no ambiente <br>
-                    <input type="text" id="area" placeholder="Digite o nº de pessoas" required>
+                    <input type="text" id="pessoas" placeholder="Digite o nº de pessoas" size="40" required><br>
             </label>
-
-            
-
+            <label> Total de Eletroeletrônicos <br>
+                <input type="text" id="eletro" placeholder="Digite o nº Eletroeletrônicos" size="35" required><br> <br>
+        </label>
+            <input type="button" id="btncalc" value="Calcular" >
+        </div>
             </div>
         
         </div>
