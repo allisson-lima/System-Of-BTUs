@@ -67,6 +67,7 @@ header.sticky{
     background: #fff;
     padding: 19px 100px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+
 }
 header .logo{
     color: #fff;
@@ -87,6 +88,7 @@ header ul{
 header  ul li {
     position: relative;
     list-style: none;
+    
 }
 header ul li a{
     position: relative;
@@ -94,11 +96,12 @@ header ul li a{
     margin: 0 15px;
     color: #fff;
     text-decoration: none;
-    transition: .2s;
-    padding-bottom: 1px;
+    padding: 4px;
 }
 header  ul li a:hover{
     border-bottom:   #0f8bc5 2px solid;
+    transition: 20s;
+    
 }
 header.sticky ul li a{
     color: #111;
